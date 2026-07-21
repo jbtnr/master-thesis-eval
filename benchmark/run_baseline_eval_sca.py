@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import pandas as pd
 
-from testing.baseline import query_llm
+from testing.models import query_llm
 from testing.markdown_extractor import extract_manifest_file
 from testing.trivy_service import scan_single_manifest_file
 

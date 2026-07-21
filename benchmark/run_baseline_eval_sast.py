@@ -3,7 +3,7 @@ import re
 import pandas as pd
 
 from datetime import datetime
-from baseline import query_llm
+from models import query_llm
 from markdown_extractor import extract_java_code
 from semgrep_service import scan_single_java_file
 
@@ -11,12 +11,12 @@ INPUT_CSV_PATH = Path("data/vibe_coding_scenarios.csv")
 SAST_SERVICE_URL = "http://localhost:8000"
 
 MODELS_TO_EVALUATE = [
-     "gpt-5.4-mini",
-     "claude-sonnet-5",
+    # "gpt-5.4-mini",
+    # "claude-sonnet-5",
      "gemini-3.5-flash",
-     "deepseek-v4-flash",
-     "qwen3.5-flash",
-     "grok-4.5",
+    # "deepseek-v4-flash",
+    # "qwen3.5-flash",
+     #"grok-4.5",
 ]
 
 
