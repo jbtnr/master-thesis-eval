@@ -2,9 +2,9 @@ import os
 import re
 import pandas as pd
 
-INPUT_TABLE = "cwe_java_with_owasp.csv"
-OUTPUT_TABLE = "filtered_cwe_table.csv"
-SEMGREP_FILE = "semgrep_cwes_result.txt"
+INPUT_TABLE = "../data/cwe_java_with_owasp.csv"
+OUTPUT_TABLE = "../data/filtered_cwe_table.csv"
+SEMGREP_FILE = "../data/semgrep_cwes_result.txt"
 
 
 def extract_semgrep_cwes(filepath):

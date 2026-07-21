@@ -4,7 +4,7 @@ import re
 import sys
 from openai import OpenAI
 
-OUTPUT_CSV = "sca_vibe_coding_scenarios.csv"
+OUTPUT_CSV = "../data/sca_vibe_coding_scenarios.csv"
 
 if not os.environ.get("OPENAI_API_KEY"):
     print("Error: Please set the OPENAI_API_KEY environment variable.")

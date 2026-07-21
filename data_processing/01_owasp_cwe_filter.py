@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("1450.csv", index_col=False)
+df = pd.read_csv("../data/1450.csv", index_col=False)
 
 platform_mask = (
     df['Applicable Platforms'].isna() |

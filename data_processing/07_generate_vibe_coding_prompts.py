@@ -3,8 +3,8 @@ import os
 import sys
 from openai import OpenAI
 
-INPUT_CSV = "clean_filtered_cwe_table_with_rules.csv"
-OUTPUT_CSV = "vibe_coding_scenarios.csv"
+INPUT_CSV = "../data/clean_filtered_cwe_table_with_rules.csv"
+OUTPUT_CSV = "../data/vibe_coding_scenarios.csv"
 
 if not os.environ.get("OPENAI_API_KEY"):
     print("Error: Please set the OPENAI_API_KEY environment variable.")

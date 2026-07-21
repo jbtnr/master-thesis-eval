@@ -4,8 +4,8 @@ import re
 import csv
 
 URL = "https://semgrep.dev/c/p/owasp-top-ten"
-INPUT_CSV = "clean_filtered_cwe_table.csv"
-OUTPUT_CSV = "clean_filtered_cwe_table_with_rules.csv"
+INPUT_CSV = "../data/clean_filtered_cwe_table.csv"
+OUTPUT_CSV = "../data/clean_filtered_cwe_table_with_rules.csv"
 
 print("Downloading ruleset...")
 req = urllib.request.Request(

@@ -1,9 +1,9 @@
 import pandas as pd
 
-CWE_FILE = "owasp_top_ten_java_cwes.csv"
-MAPPING_FILE = "owasp_top10_2025_cwe_mapping.csv"
+CWE_FILE = "../data/owasp_top_ten_java_cwes.csv"
+MAPPING_FILE = "../data/owasp_top10_2025_cwe_mapping.csv"
 
-OUTPUT_FILE = "cwe_java_with_owasp.csv"
+OUTPUT_FILE = "../data/cwe_java_with_owasp.csv"
 
 cwe_df = pd.read_csv(CWE_FILE)
 mapping_df = pd.read_csv(MAPPING_FILE)

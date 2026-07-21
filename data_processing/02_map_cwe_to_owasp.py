@@ -2,7 +2,7 @@ import re
 from pathlib import Path
 import pandas as pd
 
-INPUT_DIR = Path("./OWASP_2025_MD/")
+INPUT_DIR = Path("../data/OWASP_2025_MD/")
 
 rows = []
 
