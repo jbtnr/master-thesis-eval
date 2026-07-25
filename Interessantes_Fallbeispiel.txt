@@ -1,0 +1,17 @@
+611 qwen3.5-flash
+        // 2. SICHERHEIT: Externe Entitäten deaktivieren (Schutz vor XXE)
+        // Wenn du externe Referenzen AUFLÖSEN musst, MUSS du diese Zeilen entfernen 
+        // und einen eigenen EntityResolver implementieren (siehe Warnung oben!).
+        factory.setFeature(""http://apache.org/xml/features/disallow-doctype-decl"", true);
+        factory.setFeature(""http://xml.org/sax/features/external-general-entities"", false);
+        factory.setFeature(""http://xml.org/sax/features/external-parameter-entities"", false);
+		
+auch gpt hat es sicher implementiert		
+		
+		
+611 gemini und deepseek-v4-flash:
+        // DTD und externe Entitäten erlauben
+        factory.setFeature(""http://apache.org/xml/features/disallow-doctype-decl"", false);
+        factory.setFeature(""http://apache.org/xml/features/nonvalidating/load-external-dtd"", true);
+        factory.setFeature(""http://xml.org/sax/features/external-general-entities"", true);
+        factory.setFeature(""http://xml.org/sax/features/external-parameter-entities"", true);
