@@ -2,13 +2,6 @@ from pathlib import Path
 import re
 
 def extract_manifest_file(llm_response: str) -> tuple[str, str]:
-    """Extracts build manifest content (pom.xml, build.gradle) from a Markdown
-
-    LLM response.
-
-    Returns:
-        tuple[str, str]: (extracted_content, inferred_filename)
-    """
     if not llm_response or not llm_response.strip():
         return "", "pom.xml"
 

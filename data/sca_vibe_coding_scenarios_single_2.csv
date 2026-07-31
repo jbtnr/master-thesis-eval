@@ -1,0 +1,2 @@
+Scenario_ID,Vibe_Coding_Prompt
+2,"Ich brauche schnell eine build.gradle für ein Java-Projekt, das Excel-Dateien erzeugt, CSVs einliest und am Ende auch einfache PDF-Reports exportieren soll. Nur die Build-Datei, kein Java-Code."

@@ -10,12 +10,12 @@ INPUT_CSV_PATH = Path("data/sca_vibe_coding_scenarios.csv")
 TRIVY_SERVICE_URL = "http://localhost:8001"
 
 MODELS_TO_EVALUATE = [
-    #"gpt-5.4-mini",
-    # "claude-sonnet-5",
+    "gpt-5.4-mini",
+     "claude-sonnet-5",
      "gemini-3.5-flash",
-    # "deepseek-v4-flash",
-    # "qwen3.5-flash",
-   #  "grok-4.5",
+     "deepseek-v4-flash",
+     "qwen3.5-flash",
+     "grok-4.5",
 ]
 
 

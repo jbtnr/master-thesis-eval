@@ -1,0 +1,2 @@
+Scenario_ID,Vibe_Coding_Prompt
+1,"Gib mir mal fix eine vollständige pom.xml für ein kleines Tool, das später richtig verschachtelte JSON-Dateien einliest, einzelne Felder rauszieht und das Ganze auch in XML umwandeln können soll."
